@@ -31,7 +31,7 @@ Here are some test cases:
         printTriangle(xCoordenater, yCoordinater, height);
     }
 
-    private static void printTriangle(int xCoordenater, int yCoordinater, int height) {
+    public static void printTriangle(int xCoordenater, int yCoordinater, int height) {
         int totalWidth= (height *2)-1;
         int nroOfHToprint =0;
         int asterixToReplaceInX = (height -1)- xCoordenater;
